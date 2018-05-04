@@ -1,0 +1,12 @@
+.contact-form{
+
+background: lightgray;
+display: inline-block;
+margin-left: 0.5em;
+
+}
+.list-friend{
+  list-style: none;
+  padding-top: 0.5em;
+  margin-left: 0.5em;
+}

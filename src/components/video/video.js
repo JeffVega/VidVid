@@ -1,6 +1,6 @@
-import react from 'react'
+import React from 'react'
 
-export default videoChat(){
+export default function videoChat(){
 
 
 

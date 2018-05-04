@@ -1,12 +1,19 @@
-import react from 'react'
+import React from 'react'
 
-export default asideVideoChat() {
+export default function asideVideoChat() {
 
     return (
         <div>
             <h3>Jeff Vega</h3>
+            <ul>
+                <li>Welcome
+                </li>
+                <li>Hello
+                </li>
+                <li>How are you</li>
 
+            </ul>
         </div>
     )
-    //
+
 }
