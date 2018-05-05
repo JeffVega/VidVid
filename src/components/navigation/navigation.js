@@ -9,9 +9,8 @@ export default function Nav() {
             
             <nav>
                 <ul className="nav">
-                   <a to="/" className="nav-link"> <li>Home</li></a>
+                   <Link to="/" className="nav-link"> <li>Home</li></Link>
                    <Link to="/messages" className="nav-link"><li>Messages</li></Link>
-                   <a className="nav-link"><li>Friends</li></a>
                    <a className="nav-link"><li>Account</li></a>
                 </ul>
             </nav>
