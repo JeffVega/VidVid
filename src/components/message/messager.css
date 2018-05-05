@@ -2,6 +2,17 @@
   border: 0.1em solid lightblue;
 }
 
+.vid-list-message li {
+  text-decoration: none;
+  list-style: none;
+  display:inline-flex;
+  margin-right: 1em;
+  
+
+}
+.vid-list-message a {
+  text-decoration: none;
+}
 .message-friend{
   border:0.1em solid blue;
 }

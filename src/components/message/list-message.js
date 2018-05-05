@@ -8,8 +8,8 @@ export default function Message() {
         <div>
             <Header/>
             <div className="message-form">
-                <ul>
-                    <Link to="/id:"><li className="message-friend">Julie Kim</li></Link>
+                <ul className="vid-list-message">
+                    <Link to="/id:"><li className="message-friend ">Julie Kim</li></Link>
                     <li className="message-friend">Kingsley</li>
                     <li className="message-friend">Alexa Scott</li>
                     <li className="message-friend">George</li>
