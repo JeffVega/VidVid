@@ -6,7 +6,7 @@ export default function Contacts() {
     return (
         <div className="contact-form">
             <form>
-                <label forHtml="find-friend">
+                <label htmlFor="find-friend">
                     Look for your Friend
                 </label>
                 <br/><br/>
