@@ -1,11 +1,13 @@
 .nav-link{
   display: inline-block;
   text-decoration: none;
-  color: black;
-  padding-left: 2em;
-  padding-right: 0.2em;
+  border: none;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background: black;
+  color: white;
   list-style: none;
-  border: 2px solid grey;
   border-spacing: 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -13,6 +15,6 @@
 
 }
 .nav-link:hover{
-  color:darkturquoise;
+  color:black;
   background:lightgray;
 }

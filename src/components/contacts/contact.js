@@ -6,11 +6,11 @@ export default function Contacts() {
     return (
         <div className="contact-form">
             <form>
-                <label htmlFor="find-friend">
-                    Look for your Friend
+                <label  className="contact-friends" htmlFor="find-friend">
+                    <p>Look for your Friend</p>
                 </label>
                 <br/><br/>
-                <input name="find-friend" type="text"/>
+                <input  className="search-friend" name="find-friend" type="text"/>
             </form>
             <ul className="friends list-friend">
                 <a href=" friend-1">

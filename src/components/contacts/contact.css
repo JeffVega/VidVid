@@ -10,3 +10,33 @@ margin-left: 0.5em;
   padding-top: 0.5em;
   margin-left: 0.5em;
 }
+
+
+.search-friend{
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 10px;
+}
+
+.contact-form {
+  padding: 10px;
+  border-radius: 10px;
+}
+.list-friend a {
+  text-decoration: none;
+  color:black;
+}
+.list-friend li {
+  font-size: 18px;
+  border-radius: 5px;
+  background: white;
+  margin: 10px;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+.contact-friends p {
+  font-size: 20px;
+}
