@@ -1,18 +1,19 @@
 .message-form{
-  border: 0.1em solid lightblue;
-}
 
-.vid-list-message li {
-  text-decoration: none;
-  list-style: none;
-  display:inline-flex;
-  margin-right: 1em;
-  
-
+  width: 300px;
+  text-align: left;
+  margin-left: 10px;
+  padding: 10px;
 }
-.vid-list-message a {
+.message-form a{
   text-decoration: none;
 }
-.message-friend{
-  border:0.1em solid blue;
+.message-form li{
+  text-align: center;
+  list-style:none;
+  padding: 10px;
+  border: 2px solid grey;
+  margin: 10px;
+  max-width: 100%;
+  width: 200px;
 }
