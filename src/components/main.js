@@ -1,6 +1,5 @@
 import React from 'react'
-import Header from './header/main-header'
-import Contact from './contacts/contact'
+import Header from './header/header'
 export default class Main extends React.Component{
  constructor(){
    super()
@@ -10,7 +9,7 @@ export default class Main extends React.Component{
   return(
     <div>
     <Header/>
-    <Contact/>
+    
   </div>
   )
 }

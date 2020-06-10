@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route,Switch,Link } from "react-router-dom";
+import { BrowserRouter as Router, Route,Switch } from "react-router-dom";
 import Messages from '../message/list-message'
 import Main from '../main'
 import Account from '../account/account-info'

@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../header/main-header'
+import Header from '../header/header'
 import {Link} from 'react-router-dom'
-import './messager.css'
+
 export default function Message() {
 
     return (
