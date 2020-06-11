@@ -64,7 +64,31 @@
     }
 }  
 
-
+.greet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background:transparent;
+    border: 1px solid rgb(90, 198, 248);
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: rgb(90, 198, 248);
+    margin-top: 20px;
+    font-size: 24px;
+    transition: 1s;
+    &:hover{
+        cursor: pointer;
+        color: white;
+        background:rgb(90, 198, 248); ;
+    }
+    img{
+        width: 30px;
+        margin-left: 10px;
+    }
+}
 
 .info{
     position: absolute;
