@@ -10,8 +10,8 @@ return(
         </div>
         <header>
            <ul>
-               <li><a href="">Login</a></li>
-               <li><a href="">Sign Up</a></li>
+               <li><a href="">Video</a></li>
+               <li><a href="">Message</a></li>
            </ul>
 
         </header>
