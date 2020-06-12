@@ -9,11 +9,15 @@ const Home = () => {
         <div className="homepage">
 
             <Header/>
+            <div className="docker">
+
+           
+
             <div className="info">
-                <div>
+                
                     <h1>Vid2</h1>
                     <h1>The most advanced video chat ever created</h1>
-                </div>
+               
                 <p>Video calling proivdes quality and latency simply not available with
                     traditional technology</p>
                     <div className="greet">
@@ -24,6 +28,7 @@ const Home = () => {
             </div>
             <div className="bg-img">
                 <img src={BgImage} alt="image background"/>
+            </div>
             </div>
         </div>
     )
