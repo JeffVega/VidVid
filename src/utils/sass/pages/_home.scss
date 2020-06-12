@@ -3,28 +3,30 @@
     width: 100%;
     background: linear-gradient(to right bottom, white, #9fc7ec);
     position: relative;
+
     .header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         height: 100px;
-        
+
         &_name {
             font-size: 20px;
             margin-left: 10px;
-            img{
-               max-width: 100%;
-               width: 200px;
-               
-               transform: translateY(30px);
+
+            img {
+                max-width: 100%;
+                width: 200px;
+
+                transform: translateY(30px);
             }
         }
 
         header {
             padding-right: 20px;
-            
-            
+
+
 
             ul {
                 display: flex;
@@ -32,9 +34,9 @@
                 justify-content: space-evenly;
                 align-content: space-around;
                 list-style: none;
-                
+
                 li {
-                   
+
                     margin-left: 25px;
 
                     a {
@@ -62,32 +64,53 @@
             }
         }
     }
-}  
+}
 
 
-
-.info{
-    position: absolute;
-    top: 35%;
-    left: 10%;
+.docker {
     display: flex;
-    flex-direction: column;
-    h1{
-      width: 450px;
-      padding: 5px;  
-      &:first-child{
-          font-size: 83px;
-      }
-    }
-    p{
-        margin-left: 5px;
-        font-size: 20px;
-        width: 500px;
+    flex-direction: row;
+
+    @media (max-width:426px) {
+        flex-direction: column;
+
     }
 }
-.bg-img{
-    position: absolute;
-    top: 25%;
-    right: 10%;
-    margin-left: auto;
+
+.info {
+    margin: 10% auto;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 45%;
+    
+    & h1:first-of-type{
+        color: #399fff;
+    }
+    & > *{
+        padding: 5px;
+    }
+    @media (max-width:426px) {
+        margin-left: 0;
+        text-align: center;
+        width: 400px;
+
+    }
+
+   
+}
+
+.bg-img {
+    flex: 1;
+    align-self: center;
+    margin-top: 2rem;
+
+
+
+    img {
+        width: 100%;
+
+
+    }
 }
