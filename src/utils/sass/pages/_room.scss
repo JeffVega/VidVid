@@ -1,0 +1,58 @@
+.room{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: $default-bg;
+     &__name{
+       padding: 25px 0 0 25px;
+     }
+}
+
+.video__details{
+    position: absolute;
+    right: 0;
+    top: 0%;
+    width: 300px;
+    height: 100%;
+    background: white;
+    margin-left: 25px;
+    div{
+        width: 100%;
+        text-align: center;
+    }
+   div img{
+       margin: auto 5px;
+       width: 250px;
+   }
+    h1{
+        text-align: center;
+    }
+    ul{
+        list-style: none;
+        li{
+            margin-top: 10px;
+            font-size: 20px;
+            padding-left: 10px;
+        }
+    }
+}
+.exit{
+    position: absolute;
+    bottom:10%;
+    button{
+        font-size: 24px;
+        width: 200px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        border: none;
+        padding: 5px;
+        color: white;
+        background:#CD5555	 ;
+        transition: ease-in 0.5s;
+        &:hover{
+            cursor: pointer;
+            background: darken(#CD5555,30%);
+        }
+    }
+}

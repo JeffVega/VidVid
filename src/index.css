@@ -87,7 +87,7 @@
   top: 10%;
   width: 50%;
   height: 90%;
-  background: linear-gradient(to right bottom, white, tan);
+  background: transparent;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -96,6 +96,8 @@
   .video__info > * {
     padding: 5px;
     font-size: 34px; }
+  .video__info label:last-of-type {
+    padding-bottom: 25px; }
   .video__info h1 {
     text-align: center; }
   .video__info ul li {
@@ -130,3 +132,52 @@ form {
     background: #75bb0b; }
   form .btn-join {
     background: #f0f070; }
+
+.room {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right bottom, white, #9fc7ec); }
+  .room__name {
+    padding: 25px 0 0 25px; }
+
+.video__details {
+  position: absolute;
+  right: 0;
+  top: 0%;
+  width: 300px;
+  height: 100%;
+  background: white;
+  margin-left: 25px; }
+  .video__details div {
+    width: 100%;
+    text-align: center; }
+  .video__details div img {
+    margin: auto 5px;
+    width: 250px; }
+  .video__details h1 {
+    text-align: center; }
+  .video__details ul {
+    list-style: none; }
+    .video__details ul li {
+      margin-top: 10px;
+      font-size: 20px;
+      padding-left: 10px; }
+
+.exit {
+  position: absolute;
+  bottom: 10%; }
+  .exit button {
+    font-size: 24px;
+    width: 200px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: white;
+    background: #CD5555;
+    transition: ease-in 0.5s; }
+    .exit button:hover {
+      cursor: pointer;
+      background: #6a1f1f; }

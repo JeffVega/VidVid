@@ -6,7 +6,8 @@ class VideoChat extends Component{
  constructor(){
    super()
    this.state = {
-     room:" "
+     room:"",
+     username:""
    }
    this.onRoomInput = this.onRoomInput.bind(this)
    this.onSubmit = this.SubmitForm.bind(this)
@@ -28,7 +29,7 @@ class VideoChat extends Component{
   
   
   this.setState({
-    room:" "
+    room:""
   })
  }
 
@@ -54,7 +55,9 @@ class VideoChat extends Component{
         
           <form >
             <label>Room Name</label>
-            <input name="room" value={this.state.room} typeof="text" placeholder="Room 208" onChange={(e) => this.onRoomInput(e)} />
+            <input required name="room" placeholder="Room name..." value={this.state.room} typeof="text"  onChange={(e) => this.onRoomInput(e)} />
+            <label>Username</label>
+            <input required name="username" placeholder="Username..." value={this.state.username} typeof="text"   onChange={(e) => this.onRoomInput(e)} />
             <button onClick={(e) => this.SubmitForm(e)} className="btn-create">Create Room</button>
             <button  onClick={(e) => this.changeLocation(e)}  className="btn-join">Join room</button>
             <button onClick={this.handleClick}>Test</button>

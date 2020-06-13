@@ -4,7 +4,7 @@ import Messages from '../message/list-message';
 import Account from '../account/account-info';
 import Home from "../homepage/home";
 import VideoChat from '../video/video';
-import asideVideoChat from '../video/video-aside';
+import Room from '../video/Room';
 export default function Pages(){
   return(
     <Router>
@@ -13,7 +13,7 @@ export default function Pages(){
   
     <Route exact path="/" component={Home} />
     <Route exact path="/videochat" component={VideoChat}/>
-    <Route exact path="/video/:id" component={asideVideoChat}/>
+    <Route exact path="/video/:id" component={Room}/>
      <Route exact path="/messages" component={Messages} />
      <Route exact path="/messages/:id" component={Messages} />
      <Route exact path="/account" component={Account} />
