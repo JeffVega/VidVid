@@ -1,0 +1,74 @@
+.video{
+    height: 100vh;
+    width: 100%;
+    background:$default-bg;
+
+ 
+    
+}
+.video__info{
+    position: absolute;
+    top: 10%;
+   
+    width: 50%;
+    height: 90%;
+    background: linear-gradient(to right bottom,white,tan);
+    
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(92, 53, 2);
+    & > *{
+        padding: 5px;
+        font-size: 34px;
+    }
+    h1{
+      
+        text-align: center;
+    }
+    ul li{
+        text-align: center;
+    }
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    & > * {
+        padding: 10px;
+        margin: 5px;
+    }
+    & > input{
+        outline: none;
+        border: none;
+        font-size: 24px;
+        &:hover{
+            outline: none;
+        }
+    }
+    label{
+        text-align: center;
+        font-size: 28px;
+    }
+    & button{
+        border: none;
+       
+        color: white;
+        font-size: 25px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    .btn-create{
+        background: rgb(117, 187, 11);
+    }
+    .btn-join{
+        background: rgb(240, 240, 112);
+    }
+    
+}

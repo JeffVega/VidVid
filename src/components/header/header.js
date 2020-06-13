@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../../utils/imgs/logo.png'
-
+import {Link} from 'react-router-dom';
 
 const Header = () =>{
 return(
@@ -10,8 +10,8 @@ return(
         </div>
         <header>
            <ul>
-               <li><a href="">Video</a></li>
-               <li><a href="">Message</a></li>
+               <li><Link to="/videochat">Video</Link></li>
+               <li><Link to="/messages">Message</Link></li>
            </ul>
 
         </header>
